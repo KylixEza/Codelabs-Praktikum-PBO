@@ -4,6 +4,16 @@ public class Animal {
     private int height = 0;
     private int weight = 0;
 
+//    public Animal(){
+//
+//    }
+
+    public Animal(String name, int age, int height, int weight){
+        this.name = name;
+        this.age = age;
+        this.height = height;
+        this.weight = weight;
+    }
     public void setName(String name) {
         this.name = name;
     }
