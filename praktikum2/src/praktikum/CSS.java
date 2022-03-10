@@ -7,12 +7,12 @@ public class CSS {
 
     private ArrayList<Course> courses = new ArrayList<>();
 
-    public void tambahMataKuliah(Course matkul) {
-        courses.add(matkul);
+    public void addNewCourse(Course course) {
+        courses.add(course);
     }
 
     public void print() {
-        courses.stream().forEach(new Consumer<Course>() {
+        courses.forEach(new Consumer<Course>() {
             @Override
             public void accept(Course course) {
                 System.out.println(course.getName());
