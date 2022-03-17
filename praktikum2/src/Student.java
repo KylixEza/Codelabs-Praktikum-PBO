@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Main {
     int studentIdentity;
     String name;
     String gender;
