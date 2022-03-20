@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Praktikum PBO.iml" filepath="$PROJECT_DIR$/Praktikum PBO.iml" />
       <module fileurl="file://$PROJECT_DIR$/praktikum1/praktikum1.iml" filepath="$PROJECT_DIR$/praktikum1/praktikum1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/praktikum2/praktikum2.iml" filepath="$PROJECT_DIR$/praktikum2/praktikum2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/praktikum3/praktikum3.iml" filepath="$PROJECT_DIR$/praktikum3/praktikum3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum2&amp;3/praktikum2&amp;3.iml" filepath="$PROJECT_DIR$/praktikum2&amp;3/praktikum2&amp;3.iml" />
       <module fileurl="file://$PROJECT_DIR$/praktikum4/praktikum4.iml" filepath="$PROJECT_DIR$/praktikum4/praktikum4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum5/praktikum5.iml" filepath="$PROJECT_DIR$/praktikum5/praktikum5.iml" />
     </modules>
   </component>
 </project>

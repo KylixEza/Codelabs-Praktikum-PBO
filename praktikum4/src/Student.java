@@ -1,35 +1,57 @@
-public class Student extends Human{
-    String nim;
+public class Student {
 
-    public Student(String name, String number, boolean gender, int height, String nim) {
-        super(name, number, gender, height);
-        this.nim = nim;
+    private String id;
+    private String name;
+    private String gender;
+    private String classOfStudent;
+    private String school;
+
+    Student(String id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
-    public String getNim() {
-        return nim;
+    public String getId() {
+        return id;
     }
 
-    public void setNim(String nim) {
-        this.nim = nim;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    @Override
-    public String isGenders() {
-        if(gender == true){
-            return "Mahasiswa Laki-laki";
-        }else
-            return  "Mahasiswa Perempuan";
+    public String getName() {
+        return name;
     }
 
-    @Override
-    public String toString() {
-        return "{" +
-                "name='" + name + '\'' +
-                ", number='" + number + '\'' +
-                ", gender=" + gender +
-                ", height=" + height +
-                ", nim='" + nim + '\'' +
-                '}';
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getClassOfStudent() {
+        return classOfStudent;
+    }
+
+    public void setClassOfStudent(String classOfStudent) {
+        this.classOfStudent = classOfStudent;
+    }
+
+    public String getSchool() {
+        return school;
+    }
+
+    public void setSchool(String school) {
+        this.school = school;
+    }
+
+    public void study() {
+
     }
 }
