@@ -9,7 +9,7 @@ public class Main {
 
         Student student = new Student("ID001", "Kylix");
         Staff staff = new Staff();
-        Lecture lecture = new Lecture();
+        Lecturer lecturer = new Lecturer();
         Human human = new Human();
 
         student.addNewCourse(course1);

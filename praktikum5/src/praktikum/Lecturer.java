@@ -1,5 +1,5 @@
 package praktikum;
 
-public class Lecture extends Human {
+public class Lecturer extends Human {
     private String nip;
 }
