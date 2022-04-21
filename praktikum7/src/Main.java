@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args) {
         Human human1  = new Human("Kylix", "0891232144", true, 189);
