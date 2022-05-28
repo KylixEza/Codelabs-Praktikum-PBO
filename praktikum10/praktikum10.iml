@@ -7,7 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="openjdk.jol.core" level="project" />
-    <orderEntry type="library" name="io.opentelemetry.instrumentation.api" level="project" />
   </component>
 </module>
